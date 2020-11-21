@@ -22,9 +22,9 @@ Note: If the app does not open because "it is from an unidentified developer", C
 
 #### Linux:
    1. Unzip the compressed folder with your preferred archive manager.
-   1. Open a terminal and cd to the game's directory.
-   1. Run `chmod +x <file_name>` the first time to specify the game as executable (where <file_name> is the name of the file with the .x86_64 extension).
-   1. Run `<file_name>` to run the game.
+   1. Open a terminal and `cd` to the game's directory.
+   1. Run `chmod +x QuboRun.x86_64` the first time to specify the game as executable (where <file_name> is the name of the file with the .x86_64 extension).
+   1. Run `./QuboRun.x86_64` to run the game.
 
 ## Compatibility:
 
