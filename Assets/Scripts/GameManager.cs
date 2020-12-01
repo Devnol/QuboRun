@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
     public void Restart() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    public void Exit() {
+        SceneManager.LoadScene(0);
+    }
     public void Die() {
         if (isAlive)
         {
