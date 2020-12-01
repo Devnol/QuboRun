@@ -1276,7 +1276,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -395, y: 300}
-  m_SizeDelta: {x: 700, y: 280}
+  m_SizeDelta: {x: 700, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1117433531
 MonoBehaviour:
@@ -1317,7 +1317,7 @@ MonoBehaviour:
     for their emotional support\n\tTsoutsouJ for the debugging and insights on the
     gameplay\n\nIf you had fun playing QuboRun, you may like my other projects.\nYou
     can follow me on Twitter @Commandblock641,  find me on Discord @Devnol#9366 and
-    follow me on GitHub https://github.com/Devnol\n\n"
+    follow me on GitHub https://github.com/Devnol\n\nMade with love in Unity\n"
 --- !u!222 &1117433532
 CanvasRenderer:
   m_ObjectHideFlags: 0
