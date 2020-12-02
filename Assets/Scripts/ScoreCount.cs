@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿//Shows distance from start of the game in integer units
+using UnityEngine;
 using UnityEngine.UI;
 public class ScoreCount : MonoBehaviour
 {

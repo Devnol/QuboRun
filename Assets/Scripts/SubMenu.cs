@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿//Shows and hides submenus in the Menu scene
+using UnityEngine;
 
 public class SubMenu: MonoBehaviour
 {  

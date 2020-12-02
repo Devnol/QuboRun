@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿//Code for moving the camera's position relative to the player
+using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {

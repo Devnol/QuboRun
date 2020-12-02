@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿//Main game management code
+using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
@@ -10,13 +11,22 @@ public class GameManager : MonoBehaviour
     public ScoreCount ScoreCount;
     public GameObject DeathPanel;
     bool isAlive = true;
+    //reloads current scene from the death screen panel
     public void Restart() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
+    //Loads the main menu screen back
     public void Exit() {
         SceneManager.LoadScene(0);
     }
+    //Quits the game completely
+    public void QuitGame() {
+        Application.Quit();
+    }
+
+    //Kills the player, initially stopping counting the score, then disabling movement control,
+    //hands over the death to FreezePlayer() ...
     public void Die() {
         if (isAlive)
         {
@@ -26,16 +36,7 @@ public class GameManager : MonoBehaviour
             StartCoroutine(FreezePlayer());
         }
     }
-
-    public void QuitGame() {
-        Application.Quit();
-    }
-
-    void ContinueDeath() {
-        ScoreText.gameObject.SetActive(false);
-        DeathPanel.SetActive(true);
-        FinalScoreText.text = ScoreText.text;
-    }
+    //...which in its turn freeze the cube into place for effect and hands over to ContinueDeath() ...
 
     IEnumerator FreezePlayer() {
         yield return new WaitForSeconds(2);
@@ -43,6 +44,11 @@ public class GameManager : MonoBehaviour
         PlayerRb.constraints = RigidbodyConstraints.FreezeAll;
         ContinueDeath();    
     }
+    //... that in its turn starts the animation for the death panel and shows the player their final score.
+    void ContinueDeath() {
+        ScoreText.gameObject.SetActive(false);
+        DeathPanel.SetActive(true);
+        FinalScoreText.text = ScoreText.text;
+    }
 
-    
 }

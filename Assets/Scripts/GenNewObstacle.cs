@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿//Generates new obstacles at a random offset from the X axis center every genInterval units of distance at the end of the platform
+using UnityEngine;
 
 public class GenNewObstacle : MonoBehaviour
 {

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿//Kills Obstacle once it's out of the Player's view in order to preserve memory
+using UnityEngine;
 
 public class SelfDestruct : MonoBehaviour
 {

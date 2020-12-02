@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
     // FixedUpdate is called once per frame, better than Update for physics calculations
     void FixedUpdate()
     {
+        //move left or right by pressing a or d
         PlayerRb.AddForce(0, 0, ForwardForce * Time.deltaTime);
         if (Input.GetKey("a"))
         {
@@ -23,6 +24,7 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
+        //Kill player if they fall below the platform
         if (PlayerTf.position.y < 0) {
             FindObjectOfType<GameManager>().Die();
         }
