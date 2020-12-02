@@ -33,7 +33,7 @@ Note: If the app does not open because "it is from an unidentified developer", C
   Operating System:
     Windows: 32/64-bit
     macOS: 64-bit
-    Linux: 32/64-bit and anything that can run X.org/wayland
+    Linux: 32/64-bit and anything that can run Xorg/wayland
   
   Ram: If you can use Chrome it will run
 
