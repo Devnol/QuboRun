@@ -872,7 +872,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 722266390}
-        m_TargetAssemblyTypeName: GameStart, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
@@ -930,7 +930,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 722266384}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94591125ca4199ec98bca41bd7e8d1d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9fabd1e73a3194d209d79be2b66530fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &893945589
