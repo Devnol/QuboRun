@@ -1,6 +1,8 @@
 # QuboRun
 My first Unity project, a cube running endlessly, trying to avoid obstacles.
 
+<img src="/Assets/QuboRun_Logo.png" width="256" height="256" />
+
 ## How to play
 Move left and right using A and D, that's it. 
 It's my first game what'd you expect?
@@ -37,7 +39,7 @@ Note: If the app does not open because "it is from an unidentified developer", C
 
   Storage: about 50MB
 
-  Graphics Card: Anything that can print out graphics
+  Graphics Card: Anything that can print out graphics (except Ben Eater's GPU)
 
   Dependencies: Your patience
 
