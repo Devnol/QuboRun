@@ -33,14 +33,14 @@ Note: If the app does not open because "it is from an unidentified developer", C
   Operating System:
     Windows: 32/64-bit
     macOS: 64-bit
-    Linux: 32/64-bit and anything with a desktop environment
+    Linux: 32/64-bit and anything that can run X.org/wayland
   
   Ram: If you can use Chrome it will run
 
-  Storage: about 50MB
+  Storage: about 50MB, you should be set unless you're on Celestial's SSD
 
   Graphics Card: Anything that can print out graphics (except Ben Eater's GPU)
 
   Dependencies: Your patience
 
-Thanks for playing!
+https://www.youtube.com/watch?v=msMkeJTEGuU
